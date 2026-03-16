@@ -12,7 +12,7 @@ I decided to port materialize to linux, since the original is for windows only. 
 For sugestions, doubts or anything related to this port.
 - Email : mk2play.materialize@gmail.com
 
-## Better Suportted On
+## Better Supported On
 
 - Ubuntu 16.04, 18.04
 - CentOS 7
@@ -27,6 +27,11 @@ To use, unity is not necessary, you can use like a normal linux application.
 ## Building
 I'm developing using Unity 2018.3.3f, then, is recomended to use it also. You can try to downgrade or upgrade the package, but mainly downgrading, something can go wrong.
 
+## Note
+While the source code of this project is licensed under the GPLv3, the application is built using the Unity Engine. Because Unity is proprietary, a standard GPLv3 license would technically prohibit the distribution of the compiled binary.
+
+To resolve this, an Additional Permission (Linking Exception) has been granted by the original author. This allows the GPLv3 source code to be linked with Unity's proprietary libraries for the purpose of building and distributing the application. See the NOTICE file for the full legal text.
+
 ## Added features
 ### Paste Images from clipboard on Linux
 - You can copy a file in your file browser (Tested with nautilus) and then press  the "P" close to the slot you want to paste.
@@ -40,7 +45,7 @@ I'm developing using Unity 2018.3.3f, then, is recomended to use it also. You ca
 ### Save and Load Project
 - When you save your project, every map will be saved in the same place, with them respective types, ex:myTexture_Diffuse.png.
 - The extension used will be the one set in the GUI Panel.
-#### Suported extensions
+#### Supported extensions
 ##### Save
 - jpg
 - png
